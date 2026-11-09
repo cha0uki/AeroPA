@@ -1,0 +1,13 @@
+# Each line must be rejected. Format: <expected reasonKey>|<datagram>
+unknownType|$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A
+unknownType|HELLO
+missingFields|XGPSAerofly FS 4,-7.58,33.36,62.5
+missingFields|XATTAerofly FS 4,270.1
+missingFields|XTRAFFICAerofly FS 4,a1b2c3,33.40
+invalidNumber|XGPSAerofly FS 4,abc,33.36,62.5,270,0
+invalidNumber|XGPSAerofly FS 4,-7.58,33.36,nan,270,0
+invalidNumber|XATTAerofly FS 4,270,,0
+outOfRange|XGPSAerofly FS 4,-7.58,95.0,62.5,270,0
+outOfRange|XGPSAerofly FS 4,-190.0,33.36,62.5,270,0
+outOfRange|XGPSAerofly FS 4,-7.58,33.36,62.5,270,900
+outOfRange|XATTAerofly FS 4,270,95,0

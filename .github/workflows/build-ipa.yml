@@ -1,0 +1,51 @@
+# Builds an UNSIGNED AeroPA.ipa on GitHub's macOS runners (latest Xcode).
+# Download it from the run's "Artifacts" section and sign/install it with
+# Sideloadly or AltStore using your own Apple ID (see Docs/SIDELOADING.md).
+name: Build IPA
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  # Single job on purpose: private repos bill macOS runner minutes at 10x.
+  ipa:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - name: Show toolchain
+        run: xcodebuild -version
+      - name: Core unit tests
+        run: swift test 2>&1 | tail -40
+      - name: Build (unsigned, device)
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project AeroPA.xcodeproj \
+            -scheme AeroPA \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            | tee build.log | grep -E "error:|warning: .*AeroPA|BUILD (SUCCEEDED|FAILED)" || true
+          test -d build/Build/Products/Release-iphoneos/AeroPA.app
+      - name: Package IPA
+        run: |
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/AeroPA.app Payload/
+          zip -qry AeroPA.ipa Payload
+          ls -lh AeroPA.ipa
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AeroPA-unsigned-ipa
+          path: AeroPA.ipa
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-log
+          path: build.log

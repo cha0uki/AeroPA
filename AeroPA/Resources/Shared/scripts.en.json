@@ -1,0 +1,61 @@
+{
+ "language": "en",
+ "cues": {
+  "pa.boarding": [
+   "Good day ladies and gentlemen, and welcome aboard this {airline} flight[ {flightNumber}][ to {destination}]. Please find your seat, stow your hand baggage in the overhead lockers or under the seat in front of you, and keep the aisle clear for other passengers. Thank you.",
+   "Ladies and gentlemen, welcome on board. Boarding is now in progress. To help us depart on time, please take your seat as quickly as possible and keep the aisle clear."
+  ],
+  "pa.doors": [
+   "Cabin crew, arm doors and cross-check."
+  ],
+  "pa.welcome": [
+   "Ladies and gentlemen, on behalf of[ Captain {captain} and] the entire crew, welcome aboard {airline}[ flight {flightNumber}][ from {origin}][ to {destination}].[ Our flight time today will be {flightTimeHours} hours and {flightTimeMinutes} minutes.] Please make sure your seat belt is fastened, your seat back is upright and your tray table is stowed. Portable electronic devices must be set to flight mode."
+  ],
+  "pa.safety": [
+   "Ladies and gentlemen, please direct your attention to the cabin crew for the safety demonstration. Your seat belt fastens by inserting the metal tip into the buckle, and releases by lifting the cover. In the unlikely event of a loss of cabin pressure, oxygen masks will drop from the panel above you. Pull the mask towards you, place it over your nose and mouth, and breathe normally. Secure your own mask before helping others. Your life vest is located under your seat. Emergency exits are located at the front, over the wings, and at the rear of the cabin. Floor lighting will guide you to the nearest exit. Please take a moment to read the safety card in your seat pocket. Thank you for your attention."
+  ],
+  "pa.cabin_prep": [
+   "Cabin crew, please prepare the cabin for departure.",
+   "Ladies and gentlemen, we will shortly be departing. Please check that your seat belt is securely fastened and that your hand baggage is stowed."
+  ],
+  "pa.takeoff": [
+   "Cabin crew, please take your seats for takeoff."
+  ],
+  "pa.climb": [
+   "Ladies and gentlemen, the captain has turned off the seat belt sign. You may now move about the cabin, however we recommend that you keep your seat belt fastened while seated. Please use caution when opening the overhead lockers."
+  ],
+  "pa.cruise": [
+   "Good day ladies and gentlemen, this is your captain speaking[, {captain}]. We have now reached our cruising altitude[ of {cruiseAltitude} feet]. The weather en route looks good and we expect a smooth flight[ to {destination}]. Sit back, relax, and enjoy the flight."
+  ],
+  "pa.service": [
+   "Ladies and gentlemen, our cabin crew will shortly begin the meal and beverage service. Please lower your tray table and bring your seat to the upright position during the service. Thank you."
+  ],
+  "pa.duty_free": [
+   "Ladies and gentlemen, our in-flight boutique is now open. The cabin crew will pass through the cabin shortly with a selection of duty-free products."
+  ],
+  "pa.turbulence": [
+   "Ladies and gentlemen, the captain has turned on the seat belt sign. Please return to your seat and fasten your seat belt."
+  ],
+  "pa.descent": [
+   "Ladies and gentlemen, this is your captain. We have begun our descent[ towards {destination}] and expect to land in about twenty minutes. The cabin crew will shortly prepare the cabin for landing. Thank you for flying with us today."
+  ],
+  "pa.cabin_secure": [
+   "Ladies and gentlemen, we are now on our approach. Please return to your seat, fasten your seat belt, bring your seat back to the upright position and stow your tray table. Cabin crew, prepare the cabin for landing, please."
+  ],
+  "pa.approach": [
+   "Cabin crew, please take your seats for landing."
+  ],
+  "pa.go_around": [
+   "Ladies and gentlemen, this is your captain. You may have noticed that we discontinued our approach. This is a standard procedure, and we will be back on the ground in a few minutes. Thank you for your patience."
+  ],
+  "pa.arrival": [
+   "Ladies and gentlemen, welcome[ to {destination}]. Please remain seated with your seat belt fastened until the aircraft has come to a complete stop and the seat belt sign has been turned off. On behalf of {airline} and the entire crew, thank you for flying with us, and we look forward to welcoming you on board again soon."
+  ],
+  "pa.disarm": [
+   "Cabin crew, disarm doors and cross-check."
+  ],
+  "pa.disembark": [
+   "Ladies and gentlemen, you may now unfasten your seat belts. Please take care when opening the overhead lockers, as items may have shifted during the flight. Make sure you have all your personal belongings with you. Thank you, and goodbye."
+  ]
+ }
+}

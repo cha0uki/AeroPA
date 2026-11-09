@@ -1,0 +1,59 @@
+{
+ "language": "tr",
+ "cues": {
+  "pa.boarding": [
+   "Sayın yolcularımız, iyi günler ve {airline}[ {flightNumber} sefer sayılı][ {destination}] uçuşumuza hoş geldiniz. Lütfen yerinize oturunuz, el bagajlarınızı üst dolaplara veya önünüzdeki koltuğun altına yerleştiriniz ve koridoru açık bırakınız."
+  ],
+  "pa.doors": [
+   "Kabin ekibi, kapıları otomatik konuma alın ve çapraz kontrol yapın."
+  ],
+  "pa.welcome": [
+   "Sayın yolcularımız,[ Kaptan {captain} ve] tüm ekip adına {airline}[ {flightNumber} sefer sayılı][ {origin} -][ {destination}] uçuşumuza hoş geldiniz.[ Uçuş süremiz {flightTimeHours} saat {flightTimeMinutes} dakika olacaktır.] Lütfen emniyet kemerlerinizi bağlayınız, koltuk arkalıklarınızı dik konuma getiriniz ve tepsilerinizi kapatınız. Elektronik cihazlarınızı uçuş moduna alınız."
+  ],
+  "pa.safety": [
+   "Sayın yolcularımız, lütfen dikkatinizi emniyet gösterisine veriniz. Emniyet kemerinizi metal ucu tokaya takarak bağlayabilir, kapağı kaldırarak açabilirsiniz. Kabin basıncının düşmesi halinde oksijen maskeleri otomatik olarak inecektir. Maskeyi kendinize doğru çekip burnunuza ve ağzınıza yerleştiriniz ve normal nefes alınız. Başkalarına yardım etmeden önce kendi maskenizi takınız. Can yeleğiniz koltuğunuzun altındadır. Acil çıkışlar uçağın ön, kanat üstü ve arka bölümlerindedir. Zemindeki ışıklar sizi en yakın çıkışa yönlendirecektir. Lütfen koltuk cebinizdeki emniyet kartını okuyunuz."
+  ],
+  "pa.cabin_prep": [
+   "Kabin ekibi, kabini kalkış için hazırlayın."
+  ],
+  "pa.takeoff": [
+   "Kabin ekibi, kalkış için yerlerinize."
+  ],
+  "pa.climb": [
+   "Sayın yolcularımız, kaptanımız emniyet kemeri işaretini söndürmüştür. Kabinde dolaşabilirsiniz; ancak otururken kemerlerinizi bağlı tutmanızı öneririz."
+  ],
+  "pa.cruise": [
+   "Sayın yolcularımız, kaptanınız konuşuyor[, {captain}]. Seyir irtifamıza[ {cruiseAltitude} feet] ulaşmış bulunuyoruz. Rotamız üzerindeki hava durumu iyi ve[ {destination}] sakin bir uçuş bekliyoruz. İyi yolculuklar dileriz."
+  ],
+  "pa.service": [
+   "Sayın yolcularımız, kabin ekibimiz kısa süre içinde yemek ve içecek servisine başlayacaktır. Servis sırasında lütfen tepsinizi açınız ve koltuğunuzu dik konuma getiriniz."
+  ],
+  "pa.duty_free": [
+   "Sayın yolcularımız, uçak içi satış hizmetimiz başlamıştır. Kabin ekibimiz kısa süre içinde gümrüksüz ürünlerle kabinden geçecektir."
+  ],
+  "pa.turbulence": [
+   "Sayın yolcularımız, kaptanımız emniyet kemeri işaretini yakmıştır. Lütfen yerinize dönünüz ve kemerinizi bağlayınız."
+  ],
+  "pa.descent": [
+   "Sayın yolcularımız, kaptanınız konuşuyor.[ {destination} için] alçalmaya başladık ve yaklaşık yirmi dakika içinde iniş yapacağız. Kabin ekibimiz kabini inişe hazırlayacaktır."
+  ],
+  "pa.cabin_secure": [
+   "Sayın yolcularımız, yaklaşmaya başladık. Lütfen yerinize dönünüz, kemerinizi bağlayınız, koltuk arkalığınızı dik konuma getiriniz ve tepsinizi kapatınız. Kabin ekibi, kabini iniş için hazırlayın."
+  ],
+  "pa.approach": [
+   "Kabin ekibi, iniş için yerlerinize."
+  ],
+  "pa.go_around": [
+   "Sayın yolcularımız, kaptanınız konuşuyor. Yaklaşmamızı durdurduk; bu standart bir prosedürdür. Birkaç dakika içinde iniş yapacağız. Anlayışınız için teşekkür ederiz."
+  ],
+  "pa.arrival": [
+   "Sayın yolcularımız,[ {destination}] hoş geldiniz. Uçak tamamen durana ve emniyet kemeri işareti sönene kadar lütfen kemeriniz bağlı olarak yerinizde oturunuz. {airline} ve tüm ekibimiz adına bizi tercih ettiğiniz için teşekkür ederiz."
+  ],
+  "pa.disarm": [
+   "Kabin ekibi, kapıları normal konuma alın ve çapraz kontrol yapın."
+  ],
+  "pa.disembark": [
+   "Sayın yolcularımız, artık kemerlerinizi çözebilirsiniz. Üst dolapları açarken dikkatli olunuz. Lütfen kişisel eşyalarınızı unutmayınız. Teşekkür eder, iyi günler dileriz."
+  ]
+ }
+}

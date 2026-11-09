@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "generic",
+  "name": "Generic cabin",
+  "shortCode": "GN",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "credits": "Sounds synthesised by Tools/generate_sounds.py (original, royalty-free).",
+  "cues": {
+    "sfx.chime": {
+      "channel": "sfx",
+      "variants": [
+        {
+          "file": "SFX/chime.wav"
+        }
+      ]
+    },
+    "sfx.double_chime": {
+      "channel": "sfx",
+      "variants": [
+        {
+          "file": "SFX/double_chime.wav"
+        }
+      ]
+    },
+    "sfx.seatbelt": {
+      "channel": "sfx",
+      "variants": [
+        {
+          "file": "SFX/seatbelt.wav"
+        }
+      ]
+    },
+    "ambience.cabin": {
+      "channel": "ambience",
+      "loops": true,
+      "variants": [
+        {
+          "file": "SFX/cabin_ambience.wav"
+        }
+      ]
+    }
+  }
+}

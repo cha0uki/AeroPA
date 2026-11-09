@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085E3192BCB58FBE85FEE6E2 /* NetworkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590B0147D85E7C74F4362929 /* NetworkInfo.swift */; };
+		18510A4BE2147A6481E2B11D /* LiveFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B10D92A77998BA5205982B /* LiveFlightView.swift */; };
+		21D2E03221410D80F877E881 /* CopilotSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8B63E5C77791827BF4FE2 /* CopilotSettingsView.swift */; };
+		280BE167B11760E20A7C6AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C947BC5D97751B33974EC50D /* Assets.xcassets */; };
+		4641E6ECCA67BF9DEA502D80 /* AeroPACore in Frameworks */ = {isa = PBXBuildFile; productRef = E2CEC31EEAA780E7B3753DD4 /* AeroPACore */; };
+		4F60A99E5084A58C4653ADF6 /* DemoControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D302CE2627213CEB554C3B63 /* DemoControlView.swift */; };
+		57D8CA1305F9B31621F8E97A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A6AA547BB3167BECB1F960 /* Theme.swift */; };
+		701C6B88899F13C858ACA09E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131AA4A61BFBE832E14CECA7 /* DashboardView.swift */; };
+		7AC87D3B3843565CDFCFB9B7 /* AeroPAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D68A7C52A1B2EFAC8A2AA4 /* AeroPAApp.swift */; };
+		9168FF26D8C3BCC9D97D62A9 /* FlightSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34182E1386E243CC0C437F /* FlightSetupView.swift */; };
+		A61F42AC982E38F6EFB2D0A3 /* AirlinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F414DA4F422465F779233 /* AirlinesView.swift */; };
+		B8F9590DCFBE580193F36C68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C83C610B6B88F8A22B57A /* SettingsView.swift */; };
+		BAA9FEF8D4566475A0C73F28 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E283789D3073934F6F32E /* ConnectionView.swift */; };
+		BABFCDE684E0BC3AFDC9741D /* Airlines in Resources */ = {isa = PBXBuildFile; fileRef = D71848CA22E0ACB40D83A79F /* Airlines */; };
+		D1237A6A37C1018FF3F3C137 /* AudioSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30BB8A8EF0CEC545C583379 /* AudioSettingsView.swift */; };
+		F2B81A43DD1BA53578B27F5A /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 2AFADDDDFD7EE8C57AEC1B9F /* Shared */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131AA4A61BFBE832E14CECA7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		14A6AA547BB3167BECB1F960 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2AFADDDDFD7EE8C57AEC1B9F /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared; path = AeroPA/Resources/Shared; sourceTree = SOURCE_ROOT; };
+		3F6E283789D3073934F6F32E /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		408C83C610B6B88F8A22B57A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4F9F414DA4F422465F779233 /* AirlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesView.swift; sourceTree = "<group>"; };
+		58D8B63E5C77791827BF4FE2 /* CopilotSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotSettingsView.swift; sourceTree = "<group>"; };
+		590B0147D85E7C74F4362929 /* NetworkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfo.swift; sourceTree = "<group>"; };
+		63D68A7C52A1B2EFAC8A2AA4 /* AeroPAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroPAApp.swift; sourceTree = "<group>"; };
+		64B10D92A77998BA5205982B /* LiveFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFlightView.swift; sourceTree = "<group>"; };
+		6E34182E1386E243CC0C437F /* FlightSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSetupView.swift; sourceTree = "<group>"; };
+		83648B3B2E95F6EBCA34AD3C /* AeroPA */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AeroPA; path = .; sourceTree = SOURCE_ROOT; };
+		C947BC5D97751B33974EC50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D302CE2627213CEB554C3B63 /* DemoControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoControlView.swift; sourceTree = "<group>"; };
+		D454615DD841E9383E8BEB21 /* AeroPA.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AeroPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71848CA22E0ACB40D83A79F /* Airlines */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Airlines; path = AeroPA/Resources/Airlines; sourceTree = SOURCE_ROOT; };
+		E30BB8A8EF0CEC545C583379 /* AudioSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85D036D8FE7C95924F0C3854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4641E6ECCA67BF9DEA502D80 /* AeroPACore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012408A7DBDE50C9BD145B88 = {
+			isa = PBXGroup;
+			children = (
+				8D41D476D62E19339DC585D3 /* AeroPA */,
+				AD03B3B4F25D76786E34C3C5 /* Packages */,
+				A504633BD50F4A331EEAFBF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01DBA0679DF9E81BA6191385 /* Airlines */ = {
+			isa = PBXGroup;
+			children = (
+				4F9F414DA4F422465F779233 /* AirlinesView.swift */,
+			);
+			path = Airlines;
+			sourceTree = "<group>";
+		};
+		5ADADA968FCD7F9DDD81B953 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E283789D3073934F6F32E /* ConnectionView.swift */,
+				590B0147D85E7C74F4362929 /* NetworkInfo.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		627B608A17F7CE5CD4C740DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				14A6AA547BB3167BECB1F960 /* Theme.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		67B54917145BAC89BC4C4418 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				131AA4A61BFBE832E14CECA7 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		7E09275B9F32C9C83CC170E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D71848CA22E0ACB40D83A79F /* Airlines */,
+				C947BC5D97751B33974EC50D /* Assets.xcassets */,
+				2AFADDDDFD7EE8C57AEC1B9F /* Shared */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80F6958AE535E6BA2FCC5D2B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63D68A7C52A1B2EFAC8A2AA4 /* AeroPAApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8D41D476D62E19339DC585D3 /* AeroPA */ = {
+			isa = PBXGroup;
+			children = (
+				80F6958AE535E6BA2FCC5D2B /* App */,
+				7E09275B9F32C9C83CC170E8 /* Resources */,
+				F8DC6035DE46C53AAAC1414D /* Views */,
+			);
+			path = AeroPA;
+			sourceTree = "<group>";
+		};
+		A0FC24E6535DF5F8AA5CFC93 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E30BB8A8EF0CEC545C583379 /* AudioSettingsView.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A504633BD50F4A331EEAFBF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D454615DD841E9383E8BEB21 /* AeroPA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD03B3B4F25D76786E34C3C5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				83648B3B2E95F6EBCA34AD3C /* AeroPA */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B920794D9F1D14634AB8C8AD /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D302CE2627213CEB554C3B63 /* DemoControlView.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D17B44DB349939305F480D7A /* LiveFlight */ = {
+			isa = PBXGroup;
+			children = (
+				64B10D92A77998BA5205982B /* LiveFlightView.swift */,
+			);
+			path = LiveFlight;
+			sourceTree = "<group>";
+		};
+		ED477628B8BDDD63D2575F81 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				58D8B63E5C77791827BF4FE2 /* CopilotSettingsView.swift */,
+				6E34182E1386E243CC0C437F /* FlightSetupView.swift */,
+				408C83C610B6B88F8A22B57A /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F8DC6035DE46C53AAAC1414D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01DBA0679DF9E81BA6191385 /* Airlines */,
+				A0FC24E6535DF5F8AA5CFC93 /* Audio */,
+				627B608A17F7CE5CD4C740DC /* Components */,
+				5ADADA968FCD7F9DDD81B953 /* Connection */,
+				67B54917145BAC89BC4C4418 /* Dashboard */,
+				B920794D9F1D14634AB8C8AD /* Demo */,
+				D17B44DB349939305F480D7A /* LiveFlight */,
+				ED477628B8BDDD63D2575F81 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883042ABCE55AA260B8C1152 /* AeroPA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FAD2C1948A6840CA178B40 /* Build configuration list for PBXNativeTarget "AeroPA" */;
+			buildPhases = (
+				C912111CEA8831DD31896CC9 /* Sources */,
+				B42536FE323EFE946DA6DBE3 /* Resources */,
+				85D036D8FE7C95924F0C3854 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroPA;
+			packageProductDependencies = (
+				E2CEC31EEAA780E7B3753DD4 /* AeroPACore */,
+			);
+			productName = AeroPA;
+			productReference = D454615DD841E9383E8BEB21 /* AeroPA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBB739ED4DB0D7218C1EB7F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					883042ABCE55AA260B8C1152 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = A3708668021E1D98F1C8C456 /* Build configuration list for PBXProject "AeroPA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 012408A7DBDE50C9BD145B88;
+			packageReferences = (
+				CF60AB693A2E7DFBE1CEDA01 /* XCLocalSwiftPackageReference "." */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883042ABCE55AA260B8C1152 /* AeroPA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42536FE323EFE946DA6DBE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABFCDE684E0BC3AFDC9741D /* Airlines in Resources */,
+				280BE167B11760E20A7C6AC2 /* Assets.xcassets in Resources */,
+				F2B81A43DD1BA53578B27F5A /* Shared in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C912111CEA8831DD31896CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC87D3B3843565CDFCFB9B7 /* AeroPAApp.swift in Sources */,
+				A61F42AC982E38F6EFB2D0A3 /* AirlinesView.swift in Sources */,
+				D1237A6A37C1018FF3F3C137 /* AudioSettingsView.swift in Sources */,
+				BAA9FEF8D4566475A0C73F28 /* ConnectionView.swift in Sources */,
+				21D2E03221410D80F877E881 /* CopilotSettingsView.swift in Sources */,
+				701C6B88899F13C858ACA09E /* DashboardView.swift in Sources */,
+				4F60A99E5084A58C4653ADF6 /* DemoControlView.swift in Sources */,
+				9168FF26D8C3BCC9D97D62A9 /* FlightSetupView.swift in Sources */,
+				18510A4BE2147A6481E2B11D /* LiveFlightView.swift in Sources */,
+				085E3192BCB58FBE85FEE6E2 /* NetworkInfo.swift in Sources */,
+				B8F9590DCFBE580193F36C68 /* SettingsView.swift in Sources */,
+				57D8CA1305F9B31621F8E97A /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69E0C37DEB4C6F0F5FF08599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AeroPA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cha0uki.aeropa;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ABDEC07CB28A18225380994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B1947CEAE7AB992D8CEC97F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AeroPA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cha0uki.aeropa;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6CA94E51D94C4F21B1E3FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3708668021E1D98F1C8C456 /* Build configuration list for PBXProject "AeroPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABDEC07CB28A18225380994 /* Debug */,
+				F6CA94E51D94C4F21B1E3FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0FAD2C1948A6840CA178B40 /* Build configuration list for PBXNativeTarget "AeroPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1947CEAE7AB992D8CEC97F3 /* Debug */,
+				69E0C37DEB4C6F0F5FF08599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CF60AB693A2E7DFBE1CEDA01 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2CEC31EEAA780E7B3753DD4 /* AeroPACore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AeroPACore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BBB739ED4DB0D7218C1EB7F7 /* Project object */;
+}

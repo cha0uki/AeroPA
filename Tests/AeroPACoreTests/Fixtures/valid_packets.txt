@@ -1,0 +1,11 @@
+# Valid ForeFlight-protocol datagrams (one per line), in the format Aerofly's
+# "Broadcast flight info" sends. Replace or extend with lines captured from
+# your own device (Connection > Diagnostics > Last packet).
+XGPSAerofly FS 4,-7.589800,33.367500,62.5,269.8,0.00
+XGPSAerofly FS 4,2.547800,49.009700,119.0,85.2,77.17
+XGPSAerofly FS 4,-0.461900,51.470000,10668.0,312.4,236.60
+XATTAerofly FS 4,270.1,0.2,-0.1
+XATTAerofly FS 4,85.0,11.5,2.3
+XATTAerofly FS 4,312.0,2.4,-18.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+XTRAFFICAerofly FS 4,a1b2c3,33.40,-7.60,3500,-700,1,90,180,RAM205
+XGPSAerofly FS 4,-7.5898,33.3675,62.5,-90.0,0.0

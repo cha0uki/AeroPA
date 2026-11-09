@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "id": "qatar-airways",
+  "name": "Qatar Airways",
+  "shortCode": "QR",
+  "brandColorHex": "#5C0632",
+  "artwork": null,
+  "languages": [
+    "en",
+    "ar"
+  ],
+  "defaultLanguage": "en",
+  "speechVoices": {
+    "en": "en-GB",
+    "ar": "ar-SA"
+  },
+  "placeholders": {
+    "airline": "Qatar Airways"
+  },
+  "inheritSharedScripts": true,
+  "cues": {
+    "pa.boarding": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/boarding_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/boarding_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.doors": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/doors_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/doors_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.double_chime",
+      "priority": 70
+    },
+    "pa.welcome": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/welcome_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/welcome_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.safety": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/safety_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/safety_ar.m4a"
+        }
+      ]
+    },
+    "pa.cabin_prep": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/cabin_prep_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/cabin_prep_ar.m4a"
+        }
+      ]
+    },
+    "pa.takeoff": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/takeoff_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/takeoff_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.double_chime",
+      "priority": 70
+    },
+    "pa.climb": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/climb_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/climb_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.cruise": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/cruise_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/cruise_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.service": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/service_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/service_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.duty_free": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/duty_free_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/duty_free_ar.m4a"
+        }
+      ]
+    },
+    "pa.descent": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/descent_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/descent_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.cabin_secure": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/cabin_secure_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/cabin_secure_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.approach": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/approach_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/approach_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.double_chime",
+      "priority": 70
+    },
+    "pa.go_around": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/go_around_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/go_around_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.arrival": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/arrival_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/arrival_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "pa.disarm": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/disarm_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/disarm_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.double_chime",
+      "priority": 70
+    },
+    "pa.disembark": {
+      "channel": "pa",
+      "variants": [
+        {
+          "language": "en",
+          "file": "PA/disembark_en.m4a"
+        },
+        {
+          "language": "ar",
+          "file": "PA/disembark_ar.m4a"
+        }
+      ],
+      "leadIn": "sfx.chime"
+    },
+    "copilot.v1": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/v1.m4a"
+        }
+      ]
+    },
+    "copilot.rotate": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/rotate.m4a"
+        }
+      ]
+    },
+    "copilot.positive_climb": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/positive_climb.m4a"
+        }
+      ]
+    },
+    "copilot.positive_rate": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/positive_rate.m4a"
+        }
+      ]
+    },
+    "copilot.gear_up": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/gear_up.m4a"
+        }
+      ]
+    },
+    "copilot.80kt": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/80kt.m4a"
+        }
+      ]
+    },
+    "copilot.100kt": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/100kt.m4a"
+        }
+      ]
+    },
+    "copilot.1000agl": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/1000agl.m4a"
+        }
+      ]
+    },
+    "copilot.500agl": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/500agl.m4a"
+        }
+      ]
+    },
+    "copilot.minimums": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/minimums.m4a"
+        }
+      ]
+    },
+    "copilot.retard": {
+      "channel": "copilot",
+      "variants": [
+        {
+          "file": "Copilot/retard.m4a"
+        }
+      ]
+    },
+    "sfx.chime": {
+      "channel": "sfx",
+      "variants": [
+        {
+          "file": "SFX/chime.wav"
+        }
+      ]
+    },
+    "ambience.cabin": {
+      "channel": "ambience",
+      "loops": true,
+      "variants": [
+        {
+          "file": "SFX/cabin_ambience.m4a"
+        }
+      ]
+    }
+  },
+  "disclaimer": "Fan-made pack. Not affiliated with or endorsed by Qatar Airways. No recordings from Qatar Airways are included. Add your own original or licensed recordings at the paths listed in this manifest; missing cues use the synthesised system voice.",
+  "credits": "Scripts: AeroPA original text."
+}

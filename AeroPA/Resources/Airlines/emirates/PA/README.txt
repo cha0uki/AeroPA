@@ -1,0 +1,2 @@
+Put PA audio files for Emirates here, named as listed in ../manifest.json.
+Use only original recordings, licensed recordings, or audio you created yourself.

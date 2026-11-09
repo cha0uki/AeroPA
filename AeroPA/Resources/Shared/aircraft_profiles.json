@@ -1,0 +1,1119 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "a320",
+      "name": "Airbus A320 family",
+      "manufacturer": "Airbus",
+      "speeds": {
+        "v1": 142,
+        "vr": 146,
+        "v2": 151,
+        "vref": 135
+      },
+      "flapDetents": [
+        {
+          "position": 0,
+          "name": "zero"
+        },
+        {
+          "position": 0.25,
+          "name": "one"
+        },
+        {
+          "position": 0.5,
+          "name": "two"
+        },
+        {
+          "position": 0.75,
+          "name": "three"
+        },
+        {
+          "position": 1.0,
+          "name": "full"
+        }
+      ],
+      "callouts": [
+        {
+          "id": "100kt",
+          "text": "One hundred knots",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "knots": 100,
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "v1",
+          "text": "V one",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "v1",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "rotate",
+          "text": "Rotate",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "vr",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "positive_climb",
+          "text": "Positive climb",
+          "trigger": {
+            "type": "positiveRate"
+          }
+        },
+        {
+          "id": "gear_up",
+          "text": "Gear up",
+          "trigger": {
+            "type": "afterCallout",
+            "after": "positive_climb",
+            "delay": 1.5,
+            "unlessCapability": "gear"
+          }
+        },
+        {
+          "id": "gear_up_confirmed",
+          "text": "Gear up",
+          "trigger": {
+            "type": "gearRetracted"
+          }
+        },
+        {
+          "id": "transition_alt",
+          "text": "Transition altitude, standard, set",
+          "trigger": {
+            "type": "transitionAltitude"
+          }
+        },
+        {
+          "id": "10000_climb",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeClimbing",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "transition_lvl",
+          "text": "Transition level, Q N H set",
+          "trigger": {
+            "type": "transitionLevel"
+          }
+        },
+        {
+          "id": "10000_descent",
+          "text": "Ten thousand, lights on",
+          "trigger": {
+            "type": "altitudeDescending",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "gear_down",
+          "text": "Gear down",
+          "trigger": {
+            "type": "gearExtended"
+          }
+        },
+        {
+          "id": "flaps",
+          "text": "Speed checked, flaps {flaps}",
+          "trigger": {
+            "type": "flapsChanged",
+            "phases": [
+              "INITIAL_CLIMB",
+              "CLIMB",
+              "DESCENT",
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "1000agl",
+          "text": "One thousand, stabilized",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 1000,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "500agl",
+          "text": "Five hundred",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 500,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "100above",
+          "text": "Hundred above",
+          "trigger": {
+            "type": "aboveMinimums",
+            "feet": 100,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "minimums",
+          "text": "Minimum",
+          "trigger": {
+            "type": "minimums",
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "retard",
+          "text": "Retard",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 20,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "spoilers",
+          "text": "Spoilers",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 1.2
+          }
+        },
+        {
+          "id": "reverse",
+          "text": "Reverse green",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 2.8
+          }
+        },
+        {
+          "id": "decel",
+          "text": "Decel",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 4.5
+          }
+        },
+        {
+          "id": "70kt",
+          "text": "Seventy knots",
+          "trigger": {
+            "type": "airspeedDecreasing",
+            "knots": 70,
+            "phases": [
+              "LANDING"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "a350",
+      "name": "Airbus A350",
+      "manufacturer": "Airbus",
+      "speeds": {
+        "v1": 148,
+        "vr": 155,
+        "v2": 161,
+        "vref": 140
+      },
+      "flapDetents": [
+        {
+          "position": 0,
+          "name": "zero"
+        },
+        {
+          "position": 0.25,
+          "name": "one"
+        },
+        {
+          "position": 0.5,
+          "name": "two"
+        },
+        {
+          "position": 0.75,
+          "name": "three"
+        },
+        {
+          "position": 1.0,
+          "name": "full"
+        }
+      ],
+      "callouts": [
+        {
+          "id": "100kt",
+          "text": "One hundred knots",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "knots": 100,
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "v1",
+          "text": "V one",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "v1",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "rotate",
+          "text": "Rotate",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "vr",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "positive_climb",
+          "text": "Positive climb",
+          "trigger": {
+            "type": "positiveRate"
+          }
+        },
+        {
+          "id": "gear_up",
+          "text": "Gear up",
+          "trigger": {
+            "type": "afterCallout",
+            "after": "positive_climb",
+            "delay": 1.5,
+            "unlessCapability": "gear"
+          }
+        },
+        {
+          "id": "gear_up_confirmed",
+          "text": "Gear up",
+          "trigger": {
+            "type": "gearRetracted"
+          }
+        },
+        {
+          "id": "transition_alt",
+          "text": "Transition altitude, standard, set",
+          "trigger": {
+            "type": "transitionAltitude"
+          }
+        },
+        {
+          "id": "10000_climb",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeClimbing",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "transition_lvl",
+          "text": "Transition level, Q N H set",
+          "trigger": {
+            "type": "transitionLevel"
+          }
+        },
+        {
+          "id": "10000_descent",
+          "text": "Ten thousand, lights on",
+          "trigger": {
+            "type": "altitudeDescending",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "gear_down",
+          "text": "Gear down",
+          "trigger": {
+            "type": "gearExtended"
+          }
+        },
+        {
+          "id": "flaps",
+          "text": "Speed checked, flaps {flaps}",
+          "trigger": {
+            "type": "flapsChanged",
+            "phases": [
+              "INITIAL_CLIMB",
+              "CLIMB",
+              "DESCENT",
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "1000agl",
+          "text": "One thousand, stabilized",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 1000,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "500agl",
+          "text": "Five hundred",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 500,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "100above",
+          "text": "Hundred above",
+          "trigger": {
+            "type": "aboveMinimums",
+            "feet": 100,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "minimums",
+          "text": "Minimum",
+          "trigger": {
+            "type": "minimums",
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "retard",
+          "text": "Retard",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 20,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "spoilers",
+          "text": "Spoilers",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 1.2
+          }
+        },
+        {
+          "id": "reverse",
+          "text": "Reverse green",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 2.8
+          }
+        },
+        {
+          "id": "decel",
+          "text": "Decel",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 4.5
+          }
+        },
+        {
+          "id": "70kt",
+          "text": "Seventy knots",
+          "trigger": {
+            "type": "airspeedDecreasing",
+            "knots": 70,
+            "phases": [
+              "LANDING"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b737",
+      "name": "Boeing 737",
+      "manufacturer": "Boeing",
+      "speeds": {
+        "v1": 145,
+        "vr": 148,
+        "v2": 154,
+        "vref": 142
+      },
+      "flapDetents": [
+        {
+          "position": 0,
+          "name": "up"
+        },
+        {
+          "position": 0.03,
+          "name": "one"
+        },
+        {
+          "position": 0.1,
+          "name": "five"
+        },
+        {
+          "position": 0.3,
+          "name": "fifteen"
+        },
+        {
+          "position": 0.6,
+          "name": "thirty"
+        },
+        {
+          "position": 1.0,
+          "name": "forty"
+        }
+      ],
+      "callouts": [
+        {
+          "id": "80kt",
+          "text": "Eighty knots",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "knots": 80,
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "v1",
+          "text": "V one",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "v1",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "rotate",
+          "text": "Rotate",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "vr",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "positive_rate",
+          "text": "Positive rate",
+          "trigger": {
+            "type": "positiveRate"
+          }
+        },
+        {
+          "id": "gear_up",
+          "text": "Gear up",
+          "trigger": {
+            "type": "afterCallout",
+            "after": "positive_rate",
+            "delay": 1.5,
+            "unlessCapability": "gear"
+          }
+        },
+        {
+          "id": "gear_up_confirmed",
+          "text": "Gear up",
+          "trigger": {
+            "type": "gearRetracted"
+          }
+        },
+        {
+          "id": "transition_alt",
+          "text": "Transition altitude, altimeters standard",
+          "trigger": {
+            "type": "transitionAltitude"
+          }
+        },
+        {
+          "id": "10000_climb",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeClimbing",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "transition_lvl",
+          "text": "Transition level, altimeters set",
+          "trigger": {
+            "type": "transitionLevel"
+          }
+        },
+        {
+          "id": "10000_descent",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeDescending",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "gear_down",
+          "text": "Gear down, three green",
+          "trigger": {
+            "type": "gearExtended"
+          }
+        },
+        {
+          "id": "flaps",
+          "text": "Flaps {flaps}",
+          "trigger": {
+            "type": "flapsChanged",
+            "phases": [
+              "INITIAL_CLIMB",
+              "CLIMB",
+              "DESCENT",
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "1000agl",
+          "text": "One thousand",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 1000,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "500agl",
+          "text": "Five hundred",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 500,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "100above",
+          "text": "Approaching minimums",
+          "trigger": {
+            "type": "aboveMinimums",
+            "feet": 100,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "minimums",
+          "text": "Minimums",
+          "trigger": {
+            "type": "minimums",
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "speedbrakes",
+          "text": "Speedbrakes up",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 1.2
+          }
+        },
+        {
+          "id": "reversers",
+          "text": "Reversers normal",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 3.0
+          }
+        },
+        {
+          "id": "60kt",
+          "text": "Sixty knots",
+          "trigger": {
+            "type": "airspeedDecreasing",
+            "knots": 60,
+            "phases": [
+              "LANDING"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b777",
+      "name": "Boeing 777",
+      "manufacturer": "Boeing",
+      "speeds": {
+        "v1": 152,
+        "vr": 158,
+        "v2": 165,
+        "vref": 145
+      },
+      "flapDetents": [
+        {
+          "position": 0,
+          "name": "up"
+        },
+        {
+          "position": 0.03,
+          "name": "one"
+        },
+        {
+          "position": 0.15,
+          "name": "five"
+        },
+        {
+          "position": 0.5,
+          "name": "twenty"
+        },
+        {
+          "position": 0.8,
+          "name": "twenty five"
+        },
+        {
+          "position": 1.0,
+          "name": "thirty"
+        }
+      ],
+      "callouts": [
+        {
+          "id": "80kt",
+          "text": "Eighty knots",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "knots": 80,
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "v1",
+          "text": "V one",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "v1",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "rotate",
+          "text": "Rotate",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "vr",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "positive_rate",
+          "text": "Positive rate",
+          "trigger": {
+            "type": "positiveRate"
+          }
+        },
+        {
+          "id": "gear_up",
+          "text": "Gear up",
+          "trigger": {
+            "type": "afterCallout",
+            "after": "positive_rate",
+            "delay": 1.5,
+            "unlessCapability": "gear"
+          }
+        },
+        {
+          "id": "gear_up_confirmed",
+          "text": "Gear up",
+          "trigger": {
+            "type": "gearRetracted"
+          }
+        },
+        {
+          "id": "transition_alt",
+          "text": "Transition altitude, altimeters standard",
+          "trigger": {
+            "type": "transitionAltitude"
+          }
+        },
+        {
+          "id": "10000_climb",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeClimbing",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "transition_lvl",
+          "text": "Transition level, altimeters set",
+          "trigger": {
+            "type": "transitionLevel"
+          }
+        },
+        {
+          "id": "10000_descent",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeDescending",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "gear_down",
+          "text": "Gear down, three green",
+          "trigger": {
+            "type": "gearExtended"
+          }
+        },
+        {
+          "id": "flaps",
+          "text": "Flaps {flaps}",
+          "trigger": {
+            "type": "flapsChanged",
+            "phases": [
+              "INITIAL_CLIMB",
+              "CLIMB",
+              "DESCENT",
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "1000agl",
+          "text": "One thousand",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 1000,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "500agl",
+          "text": "Five hundred",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 500,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "100above",
+          "text": "Approaching minimums",
+          "trigger": {
+            "type": "aboveMinimums",
+            "feet": 100,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "minimums",
+          "text": "Minimums",
+          "trigger": {
+            "type": "minimums",
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "speedbrakes",
+          "text": "Speedbrakes up",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 1.2
+          }
+        },
+        {
+          "id": "reversers",
+          "text": "Reversers normal",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 3.0
+          }
+        },
+        {
+          "id": "60kt",
+          "text": "Sixty knots",
+          "trigger": {
+            "type": "airspeedDecreasing",
+            "knots": 60,
+            "phases": [
+              "LANDING"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "b787",
+      "name": "Boeing 787",
+      "manufacturer": "Boeing",
+      "speeds": {
+        "v1": 148,
+        "vr": 153,
+        "v2": 159,
+        "vref": 142
+      },
+      "flapDetents": [
+        {
+          "position": 0,
+          "name": "up"
+        },
+        {
+          "position": 0.03,
+          "name": "one"
+        },
+        {
+          "position": 0.15,
+          "name": "five"
+        },
+        {
+          "position": 0.4,
+          "name": "fifteen"
+        },
+        {
+          "position": 0.6,
+          "name": "twenty"
+        },
+        {
+          "position": 0.8,
+          "name": "twenty five"
+        },
+        {
+          "position": 1.0,
+          "name": "thirty"
+        }
+      ],
+      "callouts": [
+        {
+          "id": "80kt",
+          "text": "Eighty knots",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "knots": 80,
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "v1",
+          "text": "V one",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "v1",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "rotate",
+          "text": "Rotate",
+          "trigger": {
+            "type": "airspeedIncreasing",
+            "speedRef": "vr",
+            "phases": [
+              "TAKEOFF"
+            ]
+          }
+        },
+        {
+          "id": "positive_rate",
+          "text": "Positive rate",
+          "trigger": {
+            "type": "positiveRate"
+          }
+        },
+        {
+          "id": "gear_up",
+          "text": "Gear up",
+          "trigger": {
+            "type": "afterCallout",
+            "after": "positive_rate",
+            "delay": 1.5,
+            "unlessCapability": "gear"
+          }
+        },
+        {
+          "id": "gear_up_confirmed",
+          "text": "Gear up",
+          "trigger": {
+            "type": "gearRetracted"
+          }
+        },
+        {
+          "id": "transition_alt",
+          "text": "Transition altitude, altimeters standard",
+          "trigger": {
+            "type": "transitionAltitude"
+          }
+        },
+        {
+          "id": "10000_climb",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeClimbing",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "transition_lvl",
+          "text": "Transition level, altimeters set",
+          "trigger": {
+            "type": "transitionLevel"
+          }
+        },
+        {
+          "id": "10000_descent",
+          "text": "Ten thousand",
+          "trigger": {
+            "type": "altitudeDescending",
+            "feet": 10000
+          }
+        },
+        {
+          "id": "gear_down",
+          "text": "Gear down, three green",
+          "trigger": {
+            "type": "gearExtended"
+          }
+        },
+        {
+          "id": "flaps",
+          "text": "Flaps {flaps}",
+          "trigger": {
+            "type": "flapsChanged",
+            "phases": [
+              "INITIAL_CLIMB",
+              "CLIMB",
+              "DESCENT",
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "1000agl",
+          "text": "One thousand",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 1000,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "500agl",
+          "text": "Five hundred",
+          "trigger": {
+            "type": "heightDescending",
+            "feet": 500,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "100above",
+          "text": "Approaching minimums",
+          "trigger": {
+            "type": "aboveMinimums",
+            "feet": 100,
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "minimums",
+          "text": "Minimums",
+          "trigger": {
+            "type": "minimums",
+            "phases": [
+              "APPROACH"
+            ]
+          }
+        },
+        {
+          "id": "speedbrakes",
+          "text": "Speedbrakes up",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 1.2
+          }
+        },
+        {
+          "id": "reversers",
+          "text": "Reversers normal",
+          "trigger": {
+            "type": "touchdown",
+            "delay": 3.0
+          }
+        },
+        {
+          "id": "60kt",
+          "text": "Sixty knots",
+          "trigger": {
+            "type": "airspeedDecreasing",
+            "knots": 60,
+            "phases": [
+              "LANDING"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

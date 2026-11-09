@@ -1,0 +1,59 @@
+{
+ "language": "de",
+ "cues": {
+  "pa.boarding": [
+   "Meine Damen und Herren, guten Tag und herzlich willkommen an Bord dieses {airline} Fluges[ {flightNumber}][ nach {destination}]. Bitte nehmen Sie Ihren Platz ein und verstauen Sie Ihr Handgepäck in den Gepäckfächern oder unter dem Sitz vor Ihnen."
+  ],
+  "pa.doors": [
+   "Kabinenpersonal, Türen in Automatik und Crosscheck."
+  ],
+  "pa.welcome": [
+   "Meine Damen und Herren, im Namen[ von Kapitän {captain} und] der gesamten Besatzung begrüßen wir Sie an Bord von {airline}[ Flug {flightNumber}][ von {origin}][ nach {destination}].[ Unsere Flugzeit beträgt {flightTimeHours} Stunden und {flightTimeMinutes} Minuten.] Bitte schnallen Sie sich an, stellen Sie die Rückenlehne senkrecht und klappen Sie den Tisch hoch. Elektronische Geräte bitte in den Flugmodus schalten."
+  ],
+  "pa.safety": [
+   "Meine Damen und Herren, bitte beachten Sie nun die Sicherheitsvorführung. Zum Schließen des Gurtes stecken Sie die Metallzunge in das Schloss, zum Öffnen heben Sie die Lasche an. Bei Druckverlust fallen Sauerstoffmasken automatisch herab. Ziehen Sie die Maske zu sich, setzen Sie sie über Mund und Nase und atmen Sie normal. Setzen Sie zuerst Ihre eigene Maske auf, bevor Sie anderen helfen. Ihre Schwimmweste befindet sich unter Ihrem Sitz. Die Notausgänge befinden sich vorne, über den Tragflächen und hinten. Eine Fußbodenbeleuchtung führt Sie zum nächsten Ausgang. Bitte lesen Sie die Sicherheitskarte in der Sitztasche."
+  ],
+  "pa.cabin_prep": [
+   "Kabinenpersonal, bitte Kabine für den Start vorbereiten."
+  ],
+  "pa.takeoff": [
+   "Kabinenpersonal, bitte Plätze für den Start einnehmen."
+  ],
+  "pa.climb": [
+   "Meine Damen und Herren, der Kapitän hat die Anschnallzeichen ausgeschaltet. Wir empfehlen Ihnen jedoch, auch am Platz angeschnallt zu bleiben."
+  ],
+  "pa.cruise": [
+   "Meine Damen und Herren, hier spricht Ihr Kapitän[ {captain}]. Wir haben unsere Reiseflughöhe[ von {cruiseAltitude} Fuß] erreicht. Das Wetter auf unserer Strecke ist gut, und wir erwarten einen ruhigen Flug[ nach {destination}]. Lehnen Sie sich zurück und genießen Sie den Flug."
+  ],
+  "pa.service": [
+   "Meine Damen und Herren, in Kürze beginnen wir mit dem Service von Speisen und Getränken. Bitte klappen Sie Ihren Tisch herunter und stellen Sie Ihre Rückenlehne während des Services senkrecht."
+  ],
+  "pa.duty_free": [
+   "Meine Damen und Herren, unser Bordverkauf ist jetzt geöffnet. Die Besatzung kommt in Kürze mit einer Auswahl zollfreier Artikel durch die Kabine."
+  ],
+  "pa.turbulence": [
+   "Meine Damen und Herren, der Kapitän hat die Anschnallzeichen eingeschaltet. Bitte kehren Sie zu Ihrem Platz zurück und schnallen Sie sich an."
+  ],
+  "pa.descent": [
+   "Meine Damen und Herren, hier spricht Ihr Kapitän. Wir haben den Sinkflug[ nach {destination}] begonnen und landen in etwa zwanzig Minuten. Die Kabine wird nun für die Landung vorbereitet."
+  ],
+  "pa.cabin_secure": [
+   "Meine Damen und Herren, wir befinden uns im Landeanflug. Bitte kehren Sie zu Ihrem Platz zurück, schnallen Sie sich an, stellen Sie die Rückenlehne senkrecht und klappen Sie den Tisch hoch. Kabinenpersonal, bitte Kabine für die Landung vorbereiten."
+  ],
+  "pa.approach": [
+   "Kabinenpersonal, bitte Plätze für die Landung einnehmen."
+  ],
+  "pa.go_around": [
+   "Meine Damen und Herren, hier spricht Ihr Kapitän. Wir haben den Anflug abgebrochen. Das ist ein normales Verfahren, und wir werden in wenigen Minuten landen. Vielen Dank für Ihr Verständnis."
+  ],
+  "pa.arrival": [
+   "Meine Damen und Herren, willkommen[ in {destination}]. Bitte bleiben Sie angeschnallt sitzen, bis das Flugzeug seine endgültige Parkposition erreicht hat und die Anschnallzeichen erloschen sind. Im Namen von {airline} und der gesamten Besatzung danken wir Ihnen für Ihren Flug mit uns."
+  ],
+  "pa.disarm": [
+   "Kabinenpersonal, Türen in Normalstellung und Crosscheck."
+  ],
+  "pa.disembark": [
+   "Meine Damen und Herren, Sie können sich jetzt abschnallen. Bitte öffnen Sie die Gepäckfächer vorsichtig. Vergessen Sie keine persönlichen Gegenstände. Vielen Dank und auf Wiedersehen."
+  ]
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "language": "fr",
+ "cues": {
+  "pa.boarding": [
+   "Mesdames et messieurs, bonjour et bienvenue à bord de ce vol {airline}[ {flightNumber}][ à destination de {destination}]. Merci de rejoindre votre siège, de placer vos bagages à main dans les coffres à bagages ou sous le siège devant vous, et de libérer l'allée. Merci."
+  ],
+  "pa.doors": [
+   "PNC, armement des toboggans, vérification de la porte opposée."
+  ],
+  "pa.welcome": [
+   "Mesdames et messieurs, au nom[ du commandant {captain} et] de tout l'équipage, bienvenue à bord {airline}[ vol {flightNumber}][ au départ de {origin}][ à destination de {destination}].[ Notre temps de vol sera de {flightTimeHours} heures et {flightTimeMinutes} minutes.] Assurez-vous que votre ceinture est attachée, votre dossier redressé et votre tablette rangée. Les appareils électroniques doivent être en mode avion."
+  ],
+  "pa.safety": [
+   "Mesdames et messieurs, nous vous invitons à porter votre attention sur la démonstration de sécurité. Pour attacher votre ceinture, insérez la partie métallique dans la boucle ; pour la détacher, soulevez le rabat. En cas de dépressurisation, des masques à oxygène tomberont automatiquement. Tirez le masque vers vous, placez-le sur le nez et la bouche et respirez normalement. Ajustez votre masque avant d'aider les autres. Votre gilet de sauvetage se trouve sous votre siège. Les issues de secours sont situées à l'avant, au-dessus des ailes et à l'arrière de la cabine. Un balisage lumineux au sol vous guidera vers la sortie la plus proche. Merci de consulter la notice de sécurité placée devant vous."
+  ],
+  "pa.cabin_prep": [
+   "PNC, préparez la cabine pour le décollage, s'il vous plaît."
+  ],
+  "pa.takeoff": [
+   "PNC, à vos postes pour le décollage."
+  ],
+  "pa.climb": [
+   "Mesdames et messieurs, le commandant a éteint la consigne lumineuse « attachez vos ceintures ». Vous pouvez circuler dans la cabine ; toutefois, nous vous recommandons de garder votre ceinture attachée lorsque vous êtes assis."
+  ],
+  "pa.cruise": [
+   "Mesdames et messieurs, ici votre commandant de bord[, {captain}]. Nous avons atteint notre altitude de croisière[ de {cruiseAltitude} pieds]. La météo sur notre route est bonne et nous prévoyons un vol calme[ jusqu'à {destination}]. Nous vous souhaitons un agréable vol."
+  ],
+  "pa.service": [
+   "Mesdames et messieurs, notre équipage va bientôt commencer le service des repas et des boissons. Merci de baisser votre tablette et de redresser votre dossier pendant le service."
+  ],
+  "pa.duty_free": [
+   "Mesdames et messieurs, notre boutique à bord est maintenant ouverte. L'équipage passera prochainement dans la cabine avec une sélection d'articles hors taxes."
+  ],
+  "pa.turbulence": [
+   "Mesdames et messieurs, le commandant a allumé la consigne lumineuse. Merci de regagner votre siège et d'attacher votre ceinture."
+  ],
+  "pa.descent": [
+   "Mesdames et messieurs, ici votre commandant. Nous avons commencé notre descente[ vers {destination}] et nous atterrirons dans une vingtaine de minutes. L'équipage va préparer la cabine pour l'atterrissage."
+  ],
+  "pa.cabin_secure": [
+   "Mesdames et messieurs, nous sommes en approche. Merci de regagner votre siège, d'attacher votre ceinture, de redresser votre dossier et de ranger votre tablette. PNC, préparez la cabine pour l'atterrissage."
+  ],
+  "pa.approach": [
+   "PNC, à vos postes pour l'atterrissage."
+  ],
+  "pa.go_around": [
+   "Mesdames et messieurs, ici votre commandant. Nous avons interrompu notre approche ; il s'agit d'une procédure normale. Nous serons au sol dans quelques minutes. Merci de votre patience."
+  ],
+  "pa.arrival": [
+   "Mesdames et messieurs, bienvenue[ à {destination}]. Merci de rester assis, ceinture attachée, jusqu'à l'arrêt complet de l'appareil et l'extinction de la consigne lumineuse. Au nom de {airline} et de tout l'équipage, merci d'avoir voyagé avec nous."
+  ],
+  "pa.disarm": [
+   "PNC, désarmement des toboggans, vérification de la porte opposée."
+  ],
+  "pa.disembark": [
+   "Mesdames et messieurs, vous pouvez détacher votre ceinture. Attention à l'ouverture des coffres à bagages, leur contenu a pu bouger pendant le vol. N'oubliez aucun effet personnel. Merci et au revoir."
+  ]
+ }
+}
